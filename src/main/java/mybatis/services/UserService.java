@@ -8,9 +8,7 @@ import org.springframework.stereotype.Service;
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- * Created by tanerali on 24/07/2017.
- */
+
 @Service
 public class UserService {
 

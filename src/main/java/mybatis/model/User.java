@@ -1,8 +1,6 @@
 package mybatis.model;
 
-/**
- * Created by tanerali on 24/07/2017.
- */
+
 public class User {
 
     int id;

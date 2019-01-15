@@ -1,9 +1,7 @@
 package mybatis.controllers;
 
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicLong;
 
-import mybatis.model.Greeting;
 import mybatis.model.User;
 import mybatis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
