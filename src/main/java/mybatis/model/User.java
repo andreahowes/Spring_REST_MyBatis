@@ -1,23 +1,25 @@
 package mybatis.model;
 
-
+//user module
 public class User {
 
-    int id;
-    String first_name;
-    String last_name;
-    int isActive;
+    private int id;
+    private String first_name;
+    private String last_name;
+    private int isActive;
 
+    //constructor
     public User(int id, String first_name, String last_name, int isActive) {
         this.id = id;
         this.first_name = first_name;
         this.last_name = last_name;
         this.isActive = isActive;
     }
-
+    //empty constructor
     public User() {
     }
 
+    //getters and setters
     public int getId() {
         return id;
     }

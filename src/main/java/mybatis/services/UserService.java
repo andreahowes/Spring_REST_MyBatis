@@ -13,12 +13,15 @@ import java.util.ArrayList;
 public class UserService {
 
     @Autowired
-    UserMapper userMapper;
+    private UserMapper userMapper;
 
-
+    //Connection class extends Wrapper, AutoCloseable
     private Connection connection = null;
+    //Statement class extends Wrapper, AutoCloseable
     private Statement statement = null;
+    //PreparedStatement extends Statement
     private PreparedStatement preparedStatement = null;
+    //wrapper extends Wrapper, AutoCloseable
     private ResultSet resultSet = null;
 
 
